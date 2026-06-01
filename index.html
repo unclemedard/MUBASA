@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Makerere University Bafumbira Students Association - Uniting Bafumbira students, promoting culture and language at MUBS Kampala.">
+    <meta name="keywords" content="MUBASA, Bafumbira, Makerere University, MUBS, Students Association, Uganda">
+    <title>Home | MUBASA - Makerere University Bafumbira Students Association</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon/android-chrome-192x192.png" type="image/png">
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="MUBASA Home">
+                <div class="logo-icon"><img src="images/MUBS cambinet/mubasa logo.jpeg" alt=""></div>
+                <span>MUBASA</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="contact.html" class="btn btn-primary">Join Us</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <header class="hero" role="banner">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <div class="hero-badge animate fade-in-up">
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                    <span>Est. 2023 · Makerere University Business School</span>
+                </div>
+                <h1 class="animate fade-in-up delay-1">
+                    United we stand. <span>Culture we celebrate.</span>
+                </h1>
+                <p class="hero-description animate fade-in-up delay-2">
+                    MUBASA brings Bafumbira students at Makerere University Business School together to
+                    preserve our heritage, champion the Kifumbira language, and build confident leaders
+                    through mentorship, culture, and community events.
+                </p>
+                <div class="hero-buttons animate fade-in-up delay-3">
+                    <a href="about.html" class="btn btn-primary">
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        Discover MUBASA
+                    </a>
+                    <a href="contact.html" class="btn btn-outline-light">
+                        <i class="fas fa-handshake" aria-hidden="true"></i>
+                        Join Our Community
+                    </a>
+                </div>
+                <div class="hero-highlights animate fade-in-up delay-4">
+                    <article class="hero-highlight">
+                        <strong>100+</strong>
+                        <span>Members</span>
+                    </article>
+                    <article class="hero-highlight">
+                        <strong>10+</strong>
+                        <span>Events hosted</span>
+                    </article>
+                    <article class="hero-highlight">
+                        <strong id="years-strong"></strong>
+                        <span>Years strong</span>
+                    </article>
+                </div>
+            </div>
+            <div class="hero-panel animate fade-in-up delay-2">
+                <div class="hero-media">
+                    <div class="hero-image-frame" aria-hidden="true">
+                        <div class="hero-image-label">
+                            <img src="images/mubasa gala/intro.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="hero-card-row">
+                        <article class="hero-card">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            <div>Mentorship &amp; academic growth</div>
+                        </article>
+                        <article class="hero-card">
+                            <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                            <div>Community support &amp; culture</div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== ABOUT PREVIEW ==================== -->
+    <section class="section-light" aria-labelledby="about-heading">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-images">
+                    <div class="about-image-main">
+                        <img src="images/mubasa gala/meet4.jpg" alt="">
+                    </div>
+                    <div class="about-image-small">
+                        <img src="images/mubasa gala/party.jpg" alt="">
+                    </div>
+                    <div class="about-image-small">
+                        <img src="images/mubasa gala/galary-show.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 id="about-heading">Who We Are</h3>
+                    <p>
+                        The Makerere University Bafumbira Students Association (MUBASA) is a vibrant 
+                        community of students hailing from the Bafumbira ethnic group in Kisoro District, 
+                        South Western Uganda. Founded on the principles of unity, cultural preservation, 
+                        and academic excellence, MUBASA serves as a home away from home for Bafumbira 
+                        students pursuing their studies at Makerere University Business School.
+                    </p>
+                    <p>
+                        Our association is built on the belief that together we can achieve more. We provide 
+                        a supportive network where members can connect, share experiences, and grow both 
+                        academically and personally. Through our various programs and initiatives, we strive 
+                        to maintain the rich traditions of the Bafumbira people while embracing the opportunities 
+                        that higher education presents.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-heart" aria-hidden="true"></i>
+                            </div>
+                            <span>Cultural Preservation &amp; Promotion</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span>Academic Support &amp; Mentorship</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                            </div>
+                            <span>Community Service &amp; Outreach</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-comments" aria-hidden="true"></i>
+                            </div>
+                            <span>Kifumbira Language Promotion</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        Learn More About Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MISSION & VISION ==================== -->
+    <section class="section-bg" aria-labelledby="mission-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="mission-heading">Our Purpose</h2>
+                <p>The driving force behind everything we do at MUBASA</p>
+            </div>
+            <div class="mission-vision-grid">
+                <article class="mission-card animate fade-in-up">
+                    <h3>
+                        <i class="fas fa-bullseye" aria-hidden="true"></i>
+                        Our Mission
+                    </h3>
+                    <p>
+                        To unite all Bafumbira students at Makerere University Business School, foster 
+                        academic excellence, preserve and promote Bafumbira culture and the Kifumbira 
+                        language, and develop transformative leaders who will positively impact their 
+                        communities and Uganda at large.
+                    </p>
+                </article>
+                <article class="vision-card animate fade-in-up delay-1">
+                    <h3>
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                        Our Vision
+                    </h3>
+                    <p>
+                        To be the most united, culturally vibrant, and academically excelling students' 
+                        association at Makerere University Business School, producing leaders who champion 
+                        development while preserving the rich heritage of the Bafumbira people for generations 
+                        to come.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CORE VALUES ==================== -->
+    <section class="section-light" aria-labelledby="values-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="values-heading">Our Core Values</h2>
+                <p>The principles that guide our actions and define our character</p>
+            </div>
+            <div class="values-grid">
+                <article class="value-card animate fade-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake" aria-hidden="true"></i>
+                    </div>
+                    <h4>Unity</h4>
+                    <p>We believe in the strength of togetherness and collective effort in achieving our goals.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-1">
+                    <div class="value-icon">
+                        <i class="fas fa-award" aria-hidden="true"></i>
+                    </div>
+                    <h4>Integrity</h4>
+                    <p>We uphold honesty, transparency, and ethical behavior in all our dealings.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-2">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                    </div>
+                    <h4>Innovation</h4>
+                    <p>We embrace creative thinking and new approaches to solving community challenges.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-3">
+                    <div class="value-icon">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                    </div>
+                    <h4>Inclusivity</h4>
+                    <p>We welcome every Bafumbira student regardless of background, gender, or beliefs.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-4">
+                    <div class="value-icon">
+                        <i class="fas fa-book-open" aria-hidden="true"></i>
+                    </div>
+                    <h4>Excellence</h4>
+                    <p>We strive for the highest standards in academics, leadership, and cultural programs.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-5">
+                    <div class="value-icon">
+                        <i class="fas fa-landmark" aria-hidden="true"></i>
+                    </div>
+                    <h4>Heritage</h4>
+                    <p>We take pride in preserving and passing on the rich Bafumbira cultural traditions.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-6">
+                    <div class="value-icon">
+                        <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+                    </div>
+                    <h4>Service</h4>
+                    <p>We are committed to giving back to our community and supporting those in need.</p>
+                </article>
+                <article class="value-card animate fade-in-up delay-6">
+                    <div class="value-icon">
+                        <i class="fas fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h4>Respect</h4>
+                    <p>We honor our elders, leaders, and each other with dignity and mutual regard.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROGRAMS & ACTIVITIES ==================== -->
+    <section class="section-bg" aria-labelledby="programs-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="programs-heading">Programs &amp; Activities</h2>
+                <p>Engaging initiatives that bring our community together</p>
+            </div>
+            <div class="grid-3">
+                <article class="card animate fade-in-up">
+                    <div class="card-icon">
+                        <i class="fas fa-music" aria-hidden="true"></i>
+                    </div>
+                    <h3>Cultural Celebrations</h3>
+                    <p>
+                        Annual cultural day events featuring traditional Bafumbira dances, music performances, 
+                        storytelling sessions, and cuisine exhibitions. These celebrations strengthen cultural 
+                        identity and provide a platform for artistic expression among members.
+                    </p>
+                </article>
+                <article class="card animate fade-in-up delay-1">
+                    <div class="card-icon">
+                        <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+                    </div>
+                    <h3>Academic Mentorship</h3>
+                    <p>
+                        Peer-to-peer tutoring, study groups, and exam preparation workshops led by senior students. 
+                        Our mentorship program pairs struggling students with high-performing mentors to ensure 
+                        academic excellence across all years of study.
+                    </p>
+                </article>
+                <article class="card animate fade-in-up delay-2">
+                    <div class="card-icon">
+                        <i class="fas fa-language" aria-hidden="true"></i>
+                    </div>
+                    <h3>Language Classes</h3>
+                    <p>
+                        Weekly Kifumbira language sessions taught by fluent speakers and elders. These classes 
+                        help younger members maintain their mother tongue while also welcoming non-Bafumbira 
+                        students interested in learning about the language and culture.
+                    </p>
+                </article>
+                <article class="card animate fade-in-up">
+                    <div class="card-icon">
+                        <i class="fas fa-hands-helping" aria-hidden="true"></i>
+                    </div>
+                    <h3>Community Outreach</h3>
+                    <p>
+                        Regular visits to Kisoro District schools to donate books, offer mentorship, and inspire 
+                        academic excellence among secondary school students. Our outreach extends to supporting 
+                        vulnerable community members through welfare programs.
+                    </p>
+                </article>
+                <article class="card animate fade-in-up delay-1">
+                    <div class="card-icon">
+                        <i class="fas fa-futbol" aria-hidden="true"></i>
+                    </div>
+                    <h3>Sports &amp; Recreation</h3>
+                    <p>
+                        Inter-faculty sports tournaments, fitness sessions, and recreational activities that 
+                        promote physical health and team spirit. Our football and netball teams compete in 
+                        various university leagues, bringing members together through sports.
+                    </p>
+                </article>
+                <article class="card animate fade-in-up delay-2">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                    </div>
+                    <h3>Leadership Development</h3>
+                    <p>
+                        Workshops, seminars, and training programs designed to nurture leadership skills among 
+                        members. We believe in developing tomorrow's leaders today through practical experiences 
+                        and mentorship from successful alumni.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== STATS COUNTER ==================== -->
+    <section class="section-dark" aria-label="Association Statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <article class="stat-box animate fade-in-up">
+                    <div class="stat-icon">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="number">100+</div>
+                    <div class="label">Registered Members</div>
+                </article>
+                <article class="stat-box animate fade-in-up delay-1">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check" aria-hidden="true"></i>
+                    </div>
+                    <div class="number">50+</div>
+                    <div class="label">Events Hosted</div>
+                </article>
+                <article class="stat-box animate fade-in-up delay-2">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-reader" aria-hidden="true"></i>
+                    </div>
+                    <div class="number">1000+</div>
+                    <div class="label">Books Donated</div>
+                </article>
+                <article class="stat-box animate fade-in-up delay-3">
+                    <div class="stat-icon">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    </div>
+                    <div class="number">8</div>
+                    <div class="label">Community Projects</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LEADERSHIP PREVIEW ==================== -->
+    <section class="section-light" aria-labelledby="leaders-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="leaders-heading">Our Leadership</h2>
+                <p>Dedicated individuals steering the association towards greatness</p>
+            </div>
+            <div class="grid-4">
+                <article class="leader-card animate fade-in-up">
+                    <div class="leader-image">
+                        <img src="images/MUBS cambinet/mesach.jpg" alt="">
+                    </div>
+                    <div class="leader-info">
+                        <h4>Kiiza Meshach</h4>
+                        <span class="role">President</span>
+                        <p>Leading MUBASA with vision and dedication towards a united and prosperous community.</p>
+                        <div class="leader-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="leader-card animate fade-in-up delay-1">
+                    <div class="leader-image">
+                        <img src="images/MUBS cambinet/bridget12.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="leader-info">
+                        <h4>Munezero Bridget</h4>
+                        <span class="role">Vice President</span>
+                        <p>Supporting the president and overseeing internal operations and member welfare.</p>
+                        <div class="leader-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="leader-card animate fade-in-up delay-2">
+                    <div class="leader-image">
+                        <img src="images/MUBS cambinet/nshuti.jpg" alt="" srcset="">
+                    </div>
+                    <div class="leader-info">
+                        <h4>Nshuti Gloria</h4>
+                        <span class="role">General Secretary</span>
+                        <p>Presiding over parliamentary sessions and ensuring democratic governance.</p>
+                        <div class="leader-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="leader-card animate fade-in-up delay-3">
+                    <div class="leader-image">
+                        <img src="images/MUBS cambinet/medard.jpg" alt="" srcset="">
+                    </div>
+                    <div class="leader-info">
+                        <h4>Habimana Medard</h4>
+                        <span class="role">Speaker</span>
+                        <p>Managing records, correspondence, and administrative functions of the association.</p>
+                        <div class="leader-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center mt-40">
+                <a href="leadership.html" class="btn btn-secondary">
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                    View Full Leadership Team
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== BLOG PREVIEW ==================== -->
+    <section class="section-bg" aria-labelledby="blog-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="blog-heading">Latest from Our Blog</h2>
+                <p>Stories, updates, and insights from the MUBASA community</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card blog-preview-card animate fade-in-up">
+                    <div class="blog-image">
+                        <img src="images/MORE/IMG-20260429-WA0126.jpg" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar" aria-hidden="true"></i> 2024</span>
+                            <span><i class="far fa-user" aria-hidden="true"></i> Admin</span>
+                        </div>
+                        <h3><a href="blog.html">Annual Cultural Day Celebrations 2024</a></h3>
+                        <p>
+                            A recap of the vibrant cultural day event where Bafumbira students showcased 
+                            traditional dances, cuisine, and storytelling to celebrate their heritage.
+                        </p>
+                        <a href="blog.html" class="read-more">
+                            Read More <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-card blog-preview-card animate fade-in-up delay-1">
+                    <div class="blog-image">
+                        <img src="images/outreach/IMG-20260307-WA0321.jpg" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar" aria-hidden="true"></i> 2024</span>
+                            <span><i class="far fa-user" aria-hidden="true"></i> Editor</span>
+                        </div>
+                        <h3><a href="blog.html">MUBASA Community Outreach in Kisoro</a></h3>
+                        <p>
+                            Our members returned to their home district to support local schools through 
+                            a book donation drive and mentorship sessions for secondary school students.
+                        </p>
+                        <a href="blog.html" class="read-more">
+                            Read More <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-card blog-preview-card animate fade-in-up delay-2">
+                    <div class="blog-image">
+                        <img src="images/outreach/IMG-20250816-WA0026.jpg" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar" aria-hidden="true"></i> 2026</span>
+                            <span><i class="far fa-user" aria-hidden="true"></i> Admin</span>
+                        </div>
+                        <h3><a href="blog.html">New Executive Committee Sworn In</a></h3>
+                        <p>
+                            The newly elected executive committee takes office with a renewed commitment 
+                            to serving members and advancing the association's goals for the academic year.
+                        </p>
+                        <a href="blog.html" class="read-more">
+                            Read More <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center mt-40">
+                <a href="blog.html" class="btn btn-secondary">
+                    <i class="fas fa-newspaper" aria-hidden="true"></i>
+                    View All Articles
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="section-light" aria-labelledby="testimonials-heading">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="testimonials-heading">What Members Say</h2>
+                <p>Voices from the MUBASA community</p>
+            </div>
+            <div class="grid-3">
+                <article class="testimonial-card animate fade-in-up">
+                    <p class="testimonial-text">
+                        Joining MUBASA was the best decision I made at university. The sense of belonging 
+                        and the support from fellow Bafumbira students helped me navigate campus life with 
+                        confidence and pride in my heritage.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <!-- Avatar placeholder -->
+                        </div>
+                        <div class="testimonial-author-info">
+                            <h4>Chiza Mesach</h4>
+                            <p>President 2026-2027</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card animate fade-in-up delay-1">
+                    <p class="testimonial-text">
+                        MUBASA's mentorship program connected me with successful alumni who guided my career 
+                        choices. The cultural events remind us of where we come from while we prepare for 
+                        where we are going.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <!-- Avatar placeholder -->
+                        </div>
+                        <div class="testimonial-author-info">
+                            <h4>Niyonshuti Junior</h4>
+                            <p>General Duties</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card animate fade-in-up delay-2">
+                    <p class="testimonial-text">
+                        Being part of this association is super cool to me. I love everything about it and am am glad
+                            to be part of it. I am proud to be a Bafumbira student at MUBS and to have a community that 
+                            celebrates our culture and supports our academic journey.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <!-- Avatar placeholder -->
+                        </div>
+                        <div class="testimonial-author-info">
+                            <h4>Habimana Medard</h4>
+                            <p>Speaker</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== NEWSLETTER ==================== -->
+    <section class="section-light" aria-labelledby="newsletter-heading">
+        <div class="container">
+            <div class="newsletter-box animate fade-in-up">
+                <h3 id="newsletter-heading">Stay Connected</h3>
+                <p>Subscribe to our newsletter for the latest updates, events, and stories from MUBASA.</p>
+                <form class="newsletter-form" id="newsletter-form" method="POST">
+                    <label for="newsletter-email" class="sr-only">Email address</label>
+                    <input type="email" id="newsletter-email" name="email" placeholder="Enter your email address" required>
+                    <input type="hidden" name="message" value="User subscription request for newsletter">
+                    <button type="submit" class="btn btn-light">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA SECTION ==================== -->
+    <section class="cta-section section-bg" aria-labelledby="cta-heading">
+        <div class="container">
+            <h2 id="cta-heading">Be Part of Something Meaningful</h2>
+            <p>
+                Membership is completely free. Join hundreds of Bafumbira students at MUBS and become 
+                part of a community that celebrates culture, supports academic growth, and builds 
+                tomorrow's leaders today.
+            </p>
+            <a href="contact.html" class="btn btn-primary">
+                <i class="fas fa-user-plus" aria-hidden="true"></i>
+                Join MUBASA Today
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo" aria-label="MUBASA Home">
+                        <img src="images/MUBS cambinet/mubasa logo.jpeg" alt="MUBASA Logo" class="footer-logo">
+                        <span>MUBASA</span>
+                    </a>
+                    <p>
+                        Makerere University Bafumbira Students Association - Uniting Bafumbira students 
+                        at MUBS, preserving culture, promoting language, and building future leaders. 
+                        Together we celebrate our heritage while pursuing academic excellence.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                        <li><a href="blog.html">Blog &amp; News</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="about.html">Cultural Events</a></li>
+                        <li><a href="about.html">Mentorship</a></li>
+                        <li><a href="about.html">Academic Support</a></li>
+                        <li><a href="about.html">Community Outreach</a></li>
+                        <li><a href="about.html">Language Classes</a></li>
+                        <li><a href="about.html">Elders Council</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Makerere University Business School, Nakawa, Kampala, Uganda</p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> info@mubasa.org</p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> +256 778 907 181</p>
+                    <p><i class="fas fa-clock" aria-hidden="true"></i> Mon - Fri: 9:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> MUBASA - Makerere University Bafumbira Students Association. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+<!-- ==================== JAVASCRIPT ==================== -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script>
+        // Initialize EmailJS (replace with your public key)
+        emailjs.init('YOUR_PUBLIC_KEY_HERE');
+
+        // Add data-animate attributes for enhanced scroll animations
+        document.querySelectorAll('.hero-badge, .hero h1, .hero-description, .hero-buttons, .hero-highlights, .hero-panel').forEach((el, index) => {
+            el.setAttribute('data-animate', '');
+            el.dataset.animation = 'fadeInUp';
+            el.dataset.delay = index;
+        });
+
+        function updateYearsStrong() {
+            const el = document.getElementById('years-strong');
+            if (!el) return;
+            const currentYear = new Date().getFullYear();
+            el.textContent = currentYear - 2023;
+        }
+
+        updateYearsStrong();
+
+        // Newsletter form submission with EmailJS
+        const newsletterForm = document.getElementById('newsletter-form');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                const emailInput = document.getElementById('newsletter-email');
+                const email = emailInput.value;
+                
+                // Send email instantly via EmailJS
+                emailjs.send('EMaor2ycKh6faDQkC', 'template_y9n2dq7', {
+                    user_email: email,
+                    to_email: 'alphertech@gmail.com',
+                    message: 'User subscription request for MUBASA newsletter'
+                })
+                .then(response => {
+                    emailInput.value = '';
+                    emailInput.placeholder = 'Email sent successfully!';
+                    setTimeout(() => {
+                        emailInput.placeholder = 'Enter your email address';
+                    }, 3000);
+                })
+                .catch(error => {
+                    console.error('Subscription error:', error);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
+
